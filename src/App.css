@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0a4cd1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(199, 25, 121);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #9c61fb;
 }
 
 @keyframes App-logo-spin {
@@ -40,32 +40,35 @@
   height:4px;
   width: 5rem;
   border-radius: 4px;
-  background-color: pink;
+  background-color: rgb(231, 27, 61);
 }
 .sub-underline{
   height: 4px;
   width: 3rem;
   border-radius: 4px;
-  background-color: aqua;
+  background-color: rgb(0, 255, 64);
 }
 .sub-underline1{
   height: 4px;
   width: 3rem;
   border-radius: 4px;
-  background-color: rgb(17, 194, 61);
+  background-color:  rgb(0, 255, 64);
 }
 .sub-underline2{
   height: 4px;
   width: 3rem;
   border-radius: 4px;
-  background-color: rgb(235, 158, 15);
+  background-color:  rgb(0, 255, 64);
 }
 
 .f2f2f2{
-  background-color: blanchedalmond;
+  background-color: white;
 }
 .carousel-inner{
   text-align: center;
+  object-fit: cover;
+  height: 300px;
+  width: 200px;
 }
 .page{
   text-align: center;

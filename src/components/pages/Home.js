@@ -11,13 +11,8 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h4>Our Company</h4>
+                            <h1><strong>Our Company</strong></h1>
                             <div className="under-line mb-1"></div>
-                            {/* <p>
-                                As an AI language model,
-                                I don't have access to real-time information or knowledge about specific companies unless they are widely known.
-                                Therefore, I can't provide you with the current status of your company in the electric autorickshaw industry.
-                                </p> */}
                             <p>
                                 However, I can give you some general information about the electric autorickshaw industry.
                                 In recent years, there has been a growing interest in electric vehicles, including autorickshaws or tuk-tuks.
@@ -52,13 +47,13 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h4>Our Services</h4>
+                            <h1><strong>Our Services</strong></h1>
                             <div className="under-line mb-1"></div>
                         </div>
                         <div className="col-md-4">
                             <div className="card shadow-sm">
                                 <div className="card-body">
-                                    <h6>Digital Markting</h6>
+                                    <h3><strong>Digital Markting</strong></h3>
                                     <div className=" mb-1 sub-underline"></div>
                                     <p>
                                         "Lorem ipsum dolor sit amet,
@@ -74,7 +69,7 @@ function Home() {
                         <div className="col-md-4">
                             <div className="card shadow">
                                 <div className="card-body">
-                                    <h6>Web Designing</h6>
+                                    <h3><starong><b>Web Designing</b></starong></h3>
                                     <div className=" mb-1 sub-underline1"></div>
                                     <p>
                                         "Lorem ipsum dolor sit amet,
@@ -90,7 +85,7 @@ function Home() {
                         <div className="col-md-4">
                             <div className="card shadow">
                                 <div className="card-body">
-                                    <h6>Developement</h6>
+                                    <h3><strong>Developement</strong></h3>
                                     <div className=" mb-1 sub-underline2"></div>
                                     <p>
                                         "Lorem ipsum dolor sit amet,
