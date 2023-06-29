@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sumit-E-Richshaw/static/css/main.44f7204e.css",
+    "main.css": "/Sumit-E-Richshaw/static/css/main.0d74ccbb.css",
     "main.js": "/Sumit-E-Richshaw/static/js/main.280cee62.js",
     "static/js/496.cdda3fc4.chunk.js": "/Sumit-E-Richshaw/static/js/496.cdda3fc4.chunk.js",
     "static/media/e-auto2.webp": "/Sumit-E-Richshaw/static/media/e-auto2.039a0222e66d1344fd32.webp",
@@ -8,12 +8,12 @@
     "static/media/e-auto.webp": "/Sumit-E-Richshaw/static/media/e-auto.08a8633670fb730e8bfd.webp",
     "static/media/e-auto3.jpg": "/Sumit-E-Richshaw/static/media/e-auto3.8b9c40faf0dcdd9eb962.jpg",
     "index.html": "/Sumit-E-Richshaw/index.html",
-    "main.44f7204e.css.map": "/Sumit-E-Richshaw/static/css/main.44f7204e.css.map",
+    "main.0d74ccbb.css.map": "/Sumit-E-Richshaw/static/css/main.0d74ccbb.css.map",
     "main.280cee62.js.map": "/Sumit-E-Richshaw/static/js/main.280cee62.js.map",
     "496.cdda3fc4.chunk.js.map": "/Sumit-E-Richshaw/static/js/496.cdda3fc4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44f7204e.css",
+    "static/css/main.0d74ccbb.css",
     "static/js/main.280cee62.js"
   ]
 }
