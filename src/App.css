@@ -38,25 +38,25 @@
 }
 .under-line{
   height:4px;
-  width: 5rem;
+  width: 16rem;
   border-radius: 4px;
   background-color: rgb(231, 27, 61);
 }
 .sub-underline{
   height: 4px;
-  width: 3rem;
+  width: 9rem;
   border-radius: 4px;
   background-color: rgb(0, 255, 64);
 }
 .sub-underline1{
   height: 4px;
-  width: 3rem;
+  width: 10rem;
   border-radius: 4px;
   background-color:  rgb(0, 255, 64);
 }
 .sub-underline2{
   height: 4px;
-  width: 3rem;
+  width: 10rem;
   border-radius: 4px;
   background-color:  rgb(0, 255, 64);
 }

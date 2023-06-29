@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "../Css/Support.css";
 function Support() {
   return (
-    <div>
-      <p>sjiyidhn nusyufr  jhiusyh</p>
+    <div className='sup'>
+      <h1> Welcome to Support Page</h1>
     </div>
   )
 }

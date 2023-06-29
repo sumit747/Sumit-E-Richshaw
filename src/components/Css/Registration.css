@@ -2,3 +2,39 @@
     text-align: center;
     
 }
+.Form{
+    text-align: center;
+    padding: 20px ;
+}
+.Form1{
+    text-align: center;
+    padding: 5px;
+}
+.hello1{
+    padding: 3px;
+    text-align: center;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+.hello{
+    padding: 8px;
+    border: 3px solid;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.hello:focus{
+    outline: auto;
+    border-color: dodgerblue;
+    border: 0,0, 8px, dodgerblue;
+}
+.button{
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: blue;
+    width: 10%;
+}
