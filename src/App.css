@@ -67,8 +67,6 @@
 .carousel-inner{
   text-align: center;
   object-fit: cover;
-  height: 300px;
-  width: 200px;
 }
 .page{
   text-align: center;
