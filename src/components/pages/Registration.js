@@ -54,7 +54,7 @@ const Registration = () => {
       <div className="card shadow">
         <div className="card-body"></div>
         <form className="Form" >
-        // onSubmit={handleSubmit}
+        {/* // onSubmit={handleSubmit} */}
           <div className='Farm1' >
             <p className='Page'><h1><strong>Details of Enquiry User </strong></h1></p>
             <label className='imputMain'>
