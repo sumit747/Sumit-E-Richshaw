@@ -1,6 +1,7 @@
 .Page{
+    padding: 5px;
     text-align: center;
-    
+    margin: auto;
 }
 .Form{
     text-align: center;
@@ -8,24 +9,71 @@
 }
 .Form1{
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
-.hello1{
+.imputMain{
+    margin:auto;
+    margin-left: 10px;
+    text-align: center;
     padding: 3px;
     text-align: center;
     font-size: 25px;
     font-variant: small-caps;
 }
-
-.hello{
-    padding: 8px;
+.imputMain1{
+    margin:auto;
+    margin-right: 115px;
+    text-align: center;
+    padding: 3px;
+    text-align: center;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+.imputMain2{
+    margin:auto;
+    margin-right: 12%;
+    text-align: center;
+    padding: 3px;
+    text-align: center;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+.imputMain3{
+    margin:auto;
+    margin-right: 1.9%;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    font-size: 25px;
+    text-align-last: left;
+}
+.input{
+    padding: 5px;
+    margin: '0 auto';
+    margin-left: 20px;
     border: 3px solid;
     border-radius: 10px;
-    font-size: 14px;
-    width: 100%;
     box-sizing: border-box;
 }
-.hello:focus{
+.input1{
+    padding: 5px;
+    margin: auto;
+    margin-left: 25px;
+    border: 3px solid;
+    border-radius: 10px;
+    /* font-size: 14px; */
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+.input2{
+    padding: 5px;
+    margin-left: 30px;
+    border: 3px solid;
+    border-radius: 10px;
+    /* width: 60%; */
+    box-sizing: border-box;
+}
+.input:focus{
     outline: auto;
     border-color: dodgerblue;
     border: 0,0, 8px, dodgerblue;
