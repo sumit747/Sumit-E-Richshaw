@@ -1,0 +1,45 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "sumit",
+      "email": "sumit34@gamil.com",
+      "mobile": "927354233"
+    },
+    {
+      "id": " 2",
+      "name": "sumit kumar chaudhary",
+      "email": "sumit34@gmail.com",
+      "mobile": " 2456",
+      "active": true
+    },
+    {
+      "name": " amit",
+      "email": " amit@gamil.com",
+      "mobile": "2553 ",
+      "active": true,
+      "id": 3
+    },
+    {
+      "id": 5,
+      "name": " robin",
+      "email": " robin@gamil.com",
+      "mobile": " 2864658",
+      "active": true
+    },
+    {
+      "name": "sumit",
+      "email": "sumit34@gamil.com",
+      "mobile": "92735423",
+      "active": true,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": " komal",
+      "email": " komal@gmail.com",
+      "mobile": " 276586",
+      "active": true
+    }
+  ]
+}

@@ -1,3 +1,9 @@
-.sup{
+.container{
     text-align: center;
+}
+.btn{
+    margin: 5px;
+}
+.divbtn{
+    float: left;
 }
