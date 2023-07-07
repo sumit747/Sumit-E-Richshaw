@@ -15,11 +15,9 @@ const UserCreate = () => {
         const newUser={name,email,mobile,active};
         
         axios.post('http://localhost:4000/user',newUser,{
-            // method: "POST",
             headers:{
                 'Content-Type':'application/json'
             }
-            // body:JSON.stringify(newUser)
         })
         .then((response)=>{
             alert('New User Saved Successfully')
