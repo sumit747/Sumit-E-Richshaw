@@ -46,69 +46,86 @@ const Registration = () => {
       mobile: "",
     })
     const emailSubject = `Information`;
-    const emailBody = `Dear ${formData.name}? "this Mail provide by Sumit E-rishshaws" `;
+    const emailBody = `Dear ${formData.name}, 
+     "this Mail provide by Sumit E-rishshaws",
+     Thank Reguard ,
+     Sumit Chaudhary,
+     CEO of E-Richshows Companey
+     Mo.9183834748`;
     const mailtoLink = `mailto:${formData.email}?subject=${emailSubject}&body=${emailBody}`;
     window.location.href = mailtoLink;
     // console.log(mailtoLink);
   }
   return (
-    <div className='data'>
-      <div className="col-md-12">
-        <div className="card shadow">
-          <div className="card-body"></div>
-          <p className='Page'><h1><strong>Details of Enquiry User </strong></h1></p>
-          <form className="Form" >
-            {/* onSubmit={handleSubmit}  */}
-            <div className='Farm1' >
-              <label className='imputMain'>
-                Name :-
-                <input className='input' type='text' name='name' placeholder='Enter Your Name' required value={formData.name} onChange={handleChange} />
-              </label>
-              <br />
-              <label className='imputMain'>
-                Email :-
-                <input className='input' type='text' name='email' placeholder='abc@gmail.com' required value={formData.email} onChange={handleChange} />
-              </label>
-              <br />
-              <label className='imputMain'>
-                Date :-
-                <DatePicker
-                  className='input'
-                  selected={seletedDate}
-                  onChange={handleDateChange}
-                  dateFormat="P"
-                  required
-                  placeholderText='Seleted Current Date'
-                />
-              </label>
-              <br />
-              <label className='imputMain1'>
-                Mobile Number :-
-                <input className='input1' type='text' name='mobile' placeholder='Enter your Mobile No.' required value={formData.mobile} onChange={handleChange} />
-              </label>
-              <br />
-              <label className='imputMain2'>
-                Seleted Modal :-
-                <select className='input2' >
-                  <option>Choose Modal </option>
-                  <option>E-Richshow 01</option>
-                  <option>E-Richshow 02</option>
-                  <option>E-Richshow 03</option>
-                  <option>E-Richshow 04</option>
-                  <option>E-Richshow 05</option>
-                </select>
-              </label>
-              <br />
-              <label className='imputMain3' >
-                Address :-
-                <textarea className='input' rows={2} cols={23} required ></textarea>
-              </label>
-              <br />
-              <br />
-              <button type="Submit" className='button'
-                onClick={heandleButtonClick}
-              >Send</button>
-              {/* <button type="New User">New User</button> */}
+    <div>
+      <div className='row justify-content-center'>
+        <div className="offset lg-3 col-lg-6">
+          <form className="constainer">
+            <div className="card">
+              <div className='card-title'>
+                <p className='Page'><h1><strong>Details of Enquiry User </strong></h1></p>
+                {/* onSubmit={handleSubmit}  */}
+              </div>
+              <div className='card-body'>
+                <div className='row'>
+                  <div className='col-lg-12'>
+                    <div className='form-group'>
+                      <label className='imputMain'>Name</label>
+                      <input className='form-control' name='name' placeholder='Enter Your Name' required value={formData.name} onChange={handleChange} />
+                    </div>
+                  </div>
+                  <div className='col-lg-12'>
+                    <div className='form-group'>
+                      <label className='imputMain'>Email</label>
+                      <input className='form-control' name='email' placeholder='abc@gmail.com' required value={formData.email} onChange={handleChange} />
+                    </div>
+                  </div>
+                  <div className='col-lg-12'>
+                    <div className='form-group'>
+                      <label className='imputMain'>Date</label> <br />
+                      <DatePicker
+                        className='form-control'
+                        selected={seletedDate}
+                        onChange={handleDateChange}
+                        dateFormat="P"
+                        required
+                        placeholderText='Seleted Current Date'
+                      />
+                    </div>
+                  </div>
+                  <div className='col-lg-12'>
+                    <div className='form-group'>
+                      <label className='imputMain'> Mobile Number </label>
+                      <input className='form-control' name='mobile' placeholder='Enter your Mobile No.' required value={formData.mobile} onChange={handleChange} />
+                    </div>
+                  </div>
+                  <div className='col-lg-12'>
+                    <div className='form-group'>
+                      <label className='imputMain'> Seleted Modal </label>
+                      <select className='form-control' >
+                        <option>Choose Modal </option>
+                        <option>E-Richshow 01</option>
+                        <option>E-Richshow 02</option>
+                        <option>E-Richshow 03</option>
+                        <option>E-Richshow 04</option>
+                        <option>E-Richshow 05</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div className='col-lg-12'>
+                    <div className='form-group'>
+                      <label className='imputMain' >Address </label>
+                      <textarea className='form-control' rows={2} cols={23} required ></textarea>
+                    </div>
+                  </div>
+                  <div className='col-lg-12 justify-content-center'>
+                    <div className='form-group'>
+                      <button className='btn btn-success' onClick={heandleButtonClick}>Send</button>
+                      {/* <button type="New User">New User</button> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </form>
         </div>
