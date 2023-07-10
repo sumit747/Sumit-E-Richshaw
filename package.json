@@ -1,12 +1,13 @@
 {
-  "homepage": "http://sumit747.github.io/Sumit-E-Richshow/",
+  
+  "homepage": "http://sumit747.github.io/Sumit-E-Richshow",
   
   "name": "sumit",
   "version": "1.0.0",
   "description": "Your project description",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
