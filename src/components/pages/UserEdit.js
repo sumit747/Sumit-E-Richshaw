@@ -4,9 +4,10 @@ import axios from "axios";
 
 const UserEdit =()=>{
     const { empid } = useParams();
+    // const { name } =useParams();
     // const [userEdit, setUserEdit] = useState({})
     useEffect(() => {
-        axios.get('http://localhost:4000/user/' + empid)
+        axios.get('http://localhost:4000/user/'+ empid,)
             .then(response => {
                 // const userEdit = response.data;
                 idChange(response.data.id);

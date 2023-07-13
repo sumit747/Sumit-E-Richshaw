@@ -38,6 +38,7 @@ const Registration = () => {
   const heandleButtonClick = (event) => {
     event.preventDefault();
     console.log(formData);
+    
     setformData({
       name: "",
       email: "",
@@ -45,6 +46,7 @@ const Registration = () => {
       model: "",
       mobile: "",
     })
+    alert(`You are Conform ${formData.name} to send mail`)
     const emailSubject = `Information`;
     const emailBody = `Dear ${formData.name}, 
      "this Mail provide by Sumit E-rishshaws",

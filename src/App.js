@@ -24,7 +24,7 @@ function App() {
         <Route path="/Support" exact element={<Support/>} /> 
         <Route path="/usercreate" exact element={<UserCreate/>} /> 
         <Route path="/useredit/:empid" exact element={<UserEdit/>} /> 
-        <Route path="/userUpdate/:empid" exact element={<UserUpdate/>} /> 
+        <Route path="/userUpdate/:empid" exact element={<UserUpdate/>} />  
       </Routes>
     </Router>
     </>

@@ -3,10 +3,10 @@ import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 
 const UserUpdate = () => {
-    const { empid } = useParams();
+    const { name} = useParams();
     const [userUpdate, setUserUpdate] = useState({})
     useEffect(() => {
-        axios.get('http://localhost:4000/user/' + empid)
+        axios.get('http://localhost:4000/user/'+ name)
             .then(response => {
                 const userUpdate = response.data;
                 setUserUpdate(userUpdate);
